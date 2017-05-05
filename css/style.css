@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:600|Open+Sans:300');
+
+html,
+body{
+  height: 100%;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+#head{
+  background-image: url(../img/contact-cover.jpg);
+  height: 100%;
+  color: #FFFFFF;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.title-header{
+  margin-top: 15%;
+}
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 100px;
+  color: #FFFFFF;
+  letter-spacing: 2px;
+}
+h2{
+  font-size: 60px;
+  font-weight: bold;
+}
+h3{
+  font-weight: bold;
+}
+#information{
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+#check{
+  background: #200122;
+  background: -webkit-linear-gradient(to left, #6f0000, #200122);
+  background: linear-gradient(to left, #6f0000, #200122);
+  color: #FFFFFF;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  font-size: 30px;
+}
+#comment{
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+.middle{
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+.middle dl>*{
+  font-size: 20px;
+  padding-left: 100px;
+  padding-top: 20px;
+}
+#icons{
+  padding: 40px 0;
+}
+.profile{
+	max-width: 100px;
+	max-height: 100px;
+}
+
+#twt1, #twt2, #twt3{
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  padding: 10px 30px;
+}
+#twt1:hover, #twt2:hover, #twt3:hover{
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.title{
+  padding: 30px 0;
+}
+.flag{
+  padding: 5px 0;
+}
+.fire{
+  max-width: 30px;
+  max-height: 30px;
+}
+
+/*footstyle*/
+#pre-foot{
+  background: #200122;
+  background: -webkit-linear-gradient(to left, #6f0000, #200122);
+  background: linear-gradient(to left, #6f0000, #200122);
+	color: #ffffff;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.btn-social{
+	display: inline-block;
+	height: 50px;
+	width: 50px;
+	text-align: center;
+	font-size: 15px;
+	line-height: 45px;
+}
+.btn-outline{
+	color: #ffffff;
+	margin-top: 25px;
+}
+.bg-1{
+	font-size: 15px;
+	background-color:#0c010d;
+	color: #ffffff;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+.heart{
+	color: #ff0000;
+}
+.logo{
+  position: fixed;
+  top: 4%;
+  left: 2%;
+  z-index: 3;
+}
+.arrow{
+  margin-top: 200px;
+}
+/*------------------------------------overlay css-----------------------------------------------------*/
+.element{
+  position: fixed;
+  top: 4%;
+  right: 4%;
+  font-size: 24px;
+  z-index: 3;
+  color: ##000000;
+}
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 4;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(112, 0, 255, 0.88);
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #ffffff;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #000000;
+}
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+/*----------------ABOUT CSS----------------------*/
+#head-about{
+  background-image: url(../img/about-cover.jpg);
+  height: 100%;
+  color: #FFFFFF;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+#wp{
+  padding-bottom: 50px;
+}
+#wp img{
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+#wp img:hover{
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+#wp p{
+  font-size: 16px;
+}
+
+.team{
+	max-width: 150px;
+	max-height: 150px;
+}
+.wth{
+  color: #000000;
+}
+.wth:hover, wth:focus{
+  color: #000000;
+}
+/*WORK CSS*/
+#head-services{
+  background-image: url(../img/work-cover.jpg);
+  height: 100%;
+  color: #FFFFFF;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+/*CONTACT CSS*/
+#head-contact{
+  background-image: url(../img/home-cover.jpg);
+  height: 100%;
+  color: #FFFFFF;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.form-control{
+  border: 1px solid #a94442;
+  border-radius: 0px;
+}
+
+#card{
+  margin-top: 20px;
+  margin-bottom: 40px;
+  padding-bottom: 20px;
+}
+.btn{
+  border-radius: 0px;
+}
+.btn-info{
+  background-color: #880E4F;
+  border-color: #880E4F;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+.btn-info:hover, .btn-info:focus{
+  background-color: #C2185B;
+  border-color: #C2185B;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+/*--------------GALLERY--------------------------------*/
+
+.filter-button
+{
+    font-size: 18px;
+    border: 1px solid #6f0000;
+    border-radius: 0px;
+    text-align: center;
+    color: #6f0000;
+    margin-bottom: 30px;
+
+}
+.filter-button:hover
+{
+    font-size: 18px;
+    border: 1px solid #6f0000;
+    border-radius: 0px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #910606;
+
+}
+.btn-default:active .filter-button:active ::selection
+{
+    background-color: #6f0000;
+    color: white;
+}
+
+.port-image
+{
+    width: 100%;
+}
+
+.gallery_product
+{
+    margin-bottom: 30px;
+}
+/*-------MEDIA QUERYS------*/
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .title-header{
+      margin-top: 25%;
+    }
+    h1{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600;
+      font-size: 50px;
+      color: #FFFFFF;
+      letter-spacing: 2px;
+    }
+    h2{
+      font-size: 30px;
+      font-weight: bold;
+    }
+}
