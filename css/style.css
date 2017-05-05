@@ -5,6 +5,7 @@ body{
   height: 100%;
   margin: 0;
   font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
 }
 #head{
   background-image: url(../img/contact-cover.jpg);
@@ -36,6 +37,9 @@ h3{
 #information{
   padding-top: 30px;
   padding-bottom: 20px;
+}
+.about{
+  padding-bottom: 30px;
 }
 #check{
   background: #200122;
@@ -123,6 +127,7 @@ h3{
   top: 4%;
   left: 2%;
   z-index: 3;
+  image-resolution: snap;
 }
 .arrow{
   margin-top: 200px;
@@ -342,6 +347,9 @@ h3{
   and (min-device-width: 320px)
   and (max-device-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2) {
+    body{
+      font-size: 14px;
+    }
     .title-header{
       margin-top: 45%;
     }
