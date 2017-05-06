@@ -369,3 +369,31 @@ h3{
       font-weight: bold;
     }
 }
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    body{
+      font-size: 12px;
+    }
+    .title-header{
+      margin-top: 45%;
+    }
+    h1{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600;
+      font-size: 28px;
+      color: #FFFFFF;
+      letter-spacing: 2px;
+    }
+    h2{
+      font-size: 20px;
+      font-weight: bold;
+    }
+    .arrow{
+      margin-top: 100px;
+    }
+}
