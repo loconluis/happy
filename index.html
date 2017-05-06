@@ -7,6 +7,8 @@
   <title>Happy Std</title>
   <!--Bootstrap section-->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!--Animated css-->
+  <link rel="stylesheet" href="css/animate.css">
   <!--Personal CSS-->
   <link rel="stylesheet" href="css/style.css">
   <script src="https://use.fontawesome.com/66537378f5.js"></script>
@@ -39,7 +41,7 @@
   <header id="head" class="container-fluid">
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-        <div class="title-header text-center">
+        <div class="title-header text-center wow bounceInDown">
           <h1 class="text-center">H<img src="img/icons/happy.png" alt="logo">PPY Std.</h1>
           <h2 class="text-center">Creative Development Studio</h2>
         </div>
@@ -57,10 +59,10 @@
   <section id="information" class="container">
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 title">
-        <h2 class="text-center">We made stuffs with:</h2>
+        <h2 class="text-center wow bounceInLeft">We made stuffs with:</h2>
       </div>
     </div>
-    <div class="row text-center">
+    <div class="row text-center wow fadeIn" data-wow-delay="0.3s">
       <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 middle">
         <h3>PURPOSE <span class="heart">❤</span></h3>
 
@@ -81,10 +83,10 @@
     </div>
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 title">
-        <h2 class="text-center">How we Work.</h2>
+        <h2 class="text-center wow bounceInLeft">How we Work.</h2>
       </div>
     </div>
-    <div class="row text-center" id="icons">
+    <div class="row text-center wow fadeIn" data-wow-delay="0.3s" id="icons">
       <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
         <img src="img/icons/brainstorm.png" class="img-responsive center-block" alt="sketch">
         <h3 class="text-center">We Learn.</h3>
@@ -123,10 +125,10 @@
   <section id="comment" class="container">
     <div class="row text-center">
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 title">
-        <h2>What poeple says.</h2>
+        <h2 class="wow bounceInLeft">What poeple says.</h2>
       </div>
     </div>
-    <div class="row">
+    <div class="row wow fadeInDown">
         <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4" id="twt1">
           <img src="img/profile/twt/twt1.jpg" class="img-responsive img-circle profile center-block" alt="twt1">
           <!--IMG-->
@@ -151,7 +153,7 @@
     </div>
   </section>
   <!--Prefooter-->
-  <section id="pre-foot">
+  <section id="pre-foot" class="wow fadeIn" data-wow-delay="0.1s">
     <div class="container">
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 text-center title">
@@ -194,6 +196,7 @@
   <!-- Latest compiled and minified JavaScript & jQuery -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src="js/wow.min.js"></script>
   <script src="js/main.js" charset="utf-8"></script>
 </body>
 </html>

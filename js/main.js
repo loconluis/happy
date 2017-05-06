@@ -55,5 +55,7 @@ $(document).ready(function(){
 $(this).removeClass("active");
 }
 $(this).addClass("active");
-
 });
+
+//Init WOWJs
+new WOW().init();

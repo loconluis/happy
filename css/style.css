@@ -26,13 +26,16 @@ h1{
   font-size: 100px;
   color: #FFFFFF;
   letter-spacing: 2px;
+  text-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 h2{
   font-size: 60px;
   font-weight: bold;
+  text-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 h3{
   font-weight: bold;
+  text-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 #information{
   padding-top: 30px;
@@ -213,7 +216,9 @@ h3{
 }
 .wth:hover, wth:focus{
   color: #000000;
+  text-decoration: underline;
 }
+.wth:visited{color: #200122;}
 /*WORK CSS*/
 #head-services{
   background-image: url(../img/work-cover.jpg);
